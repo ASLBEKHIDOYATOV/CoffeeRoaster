@@ -164,7 +164,7 @@
         align-items: center;
     width: 217px;
     height: 56px;
-    background-color: #66D2CF;
+    background-color: #0e8784;
     line-height: 139%;
     text-align: center;
     color: #fefcf7;
@@ -264,6 +264,21 @@
     position: relative;
     bottom: 547px;
     background-color: #2C343E;
+}
+
+.btn:hover{
+opacity: 0.6;
+}
+.btn:active{
+    background-color: grey;
+}
+
+.btn .great_a:active{
+    color: rgb(239, 245, 245);
+}
+.great_a:hover{
+    color: rgb(239, 245, 245) !important;
+    opacity: 1 !important;
 }
 
 .choosing-text {
@@ -490,4 +505,22 @@
             clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+.circle{
+    position: relative;
+    bottom: 30px;
+    width: 765px;
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+}
+.around{
+   background-color: white;
+      width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid green;
+}
+.around:hover{
+    background-color: green;
 }
